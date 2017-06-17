@@ -1,5 +1,7 @@
 # JSON que serão consumidos no trabalho - IONIC
 
+## **OBS: Todas as requisições estão sendo feitas via POST.**
+
 ## **Requisições do Projeto:**
 
 ### **1. Validação do login de usuário:**
