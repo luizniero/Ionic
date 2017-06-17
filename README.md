@@ -6,7 +6,7 @@
 
 ### **1. Validação do login de usuário:**
   - A app enviará um JSON para o webservice contendo o usuário e senha;
-  - O Webservice deverá receber o JSON e verificar no BD se o ID para aquele usuário existe. Caso exista, o servidor retornará um JSON com 1, além de retornar também o nome e o ID dos dependentes desse mesmo usuário.Se não existir, deverá retornar 0. Caso não exista dependentes, retornar null.
+  - O Webservice deverá receber o JSON e verificar no BD se o ID para aquele usuário existe. Caso exista, o servidor retornará um JSON com 1, além de retornar também o nome e o ID dos dependentes desse mesmo usuário. Se não existir, deverá retornar 0. Caso não exista dependentes, retornar null.
   - *O JSON deve conter os seguintes campos:*
     1) validacao (Campo que deverá conter 0 ou 1);
     2) dependentes (Array de dependentes):
