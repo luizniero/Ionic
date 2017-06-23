@@ -30,3 +30,24 @@
   - A app enviará para o servidor um JSON com os seguintes campos: Número cartão sus, Nome vacina, Dose, Data aplicação.
   - O webservice receberá o JSON e vai cadastrar uma nova aplicação de vacina. Caso o cadastro seja bem sucedido, deverá retornar 1, além do Número cartão sus e também um array contendo as aplicações de vacina. Senão, retornará 0.
   - *O JSON dever ter o mesmo formato do item 3*.
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+# Entradas
+As entradas serão enviadas em JSON via método POST para o servidor e elas devem seguir o formato a seguir:
+## **1.Entrada Login:**
+  - login;
+  - senha;
+    
+## **2.Entrada Cadastro de Novo Usuário:**
+  - nome;
+  - numero_cartao;
+  - usuario;
+  - senha;
+  - data_nascimento;
+ 
+## **3.Entrada carregar Carteira de Vacinação:**
+  - numero_cartao_sus;
+  
+## **4. Entrada Cadastrar Aplicação de Vacina:**
