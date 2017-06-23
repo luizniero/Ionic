@@ -20,8 +20,7 @@
   - O webservice vai receber o JSON e consultar a carteira de vacina do usuário. Caso a consulta seja bem sucedida, deverá retornar 1, além de um array contendo as aplicações de vacina, caso contrário 0. Caso não exista vacinas, retornar null.
   - *O JSON dever conter os seguintes campos:*
       1) validacao (Campo de deverá conter 0 ou 1)
-      2) numero_cartao_sus;
-      3) vacinas (Array de vacinas tomadas pelo usuário):
+      2) vacinas (Array de vacinas tomadas pelo usuário):
           - nome_vacina;
           - numero_da_dose;
           - tipo_da_dose;
