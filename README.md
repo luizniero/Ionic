@@ -46,7 +46,10 @@ As entradas serão enviadas em JSON via método POST para o servidor e elas deve
   - senha;
   - data_nascimento;
  
-## **3.Entrada carregar Carteira de Vacinação:**
+## **3.Entrada Cadastrar Carteira de Vacinação:**
   - numero_cartao_sus;
+  - nome_propriet;
+  - cod_usuario (id do usuario);
+  - data_nasc;
   
 ## **4. Entrada Cadastrar Aplicação de Vacina:**
